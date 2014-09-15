@@ -5,7 +5,10 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore IDE settings
-.idea/
+/.idea
+
+# Ignore Spring files
+/spring/*.pid
 
 # Ignore bundler config.
 /.bundle
